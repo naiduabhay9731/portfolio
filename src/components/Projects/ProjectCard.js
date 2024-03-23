@@ -18,7 +18,7 @@ export const ProjectCard = (props) => {
     <div className={styles.container}>
       <img
         src={ar[index]}
-        alt={`Image of ${project.title}`}
+        alt="Text2"
         className={styles.image}
       />
       <h3 className={styles.title}>{project.title}</h3>

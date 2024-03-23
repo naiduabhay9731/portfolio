@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 import LogoS from '../../assets/images/logo-s.png';
 import Resme from '../../assets/images/CV.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBriefcase, faCog, faEnvelope, faFile, faHome, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faBriefcase, faCog, faEnvelope,  faHome, faUser } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin ,faGithub} from '@fortawesome/free-brands-svg-icons' 
 
 const Sidebar =()=>{
@@ -38,7 +38,7 @@ const Sidebar =()=>{
                 <a  target='_blank' rel='noreferrer' href='https://github.com/naiduabhay9731'><FontAwesomeIcon icon={faGithub} color='#4d4d4e'/></a>
             </li>
             <li>
-                <a className=' resume' target='_blank' rel='noreferrer' href='https://drive.google.com/file/d/1og3yxPW-plYdSZtvc8yDNuc4Ist26kI9/view?usp=drive_link'><img src={Resme}></img></a>
+                <a className=' resume' target='_blank' rel='noreferrer' href='https://drive.google.com/file/d/1og3yxPW-plYdSZtvc8yDNuc4Ist26kI9/view?usp=drive_link'><img src={Resme} alt='Resme'></img></a>
             </li>
             
         </ul>

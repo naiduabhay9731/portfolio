@@ -29,7 +29,7 @@ const Home=()=>{
             idx={15} /> <br/> <AnimatedLetters letterClass={letterClass}
             strArray={['I',' ','a','m']}
             idx={15} />
-            <img src={Logot}></img>
+            <img src={Logot} alt='Text2'></img>
             <AnimatedLetters letterClass={letterClass}
             strArray={nameArr}
             idx={15}/>

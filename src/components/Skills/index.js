@@ -52,43 +52,43 @@ const Skills=()=>{
                     <p>Aspiring MERN stack developer with experience of 2 years in ReactJS and NodeJS/ExpressJS, very efficient in C/C++,if you want to know more about me You can find my cv on the Sidebar.</p>
                     <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                         <div className="item">
-                            <img src={meter2} alt="Image" />
+                            <img src={meter2} alt="Percentage" />
                             <h3>ReactJS</h3>
                         </div>
                         <div className="item">
-                            <img src={meter3} alt="Image" />
+                            <img src={meter3} alt="Percentage" />
                             <h3>NodeJS</h3>
                         </div>
                         <div className="item">
-                            <img src={meter3} alt="Image" />
+                            <img src={meter3}alt="Percentage" />
                             <h3>ExpressJS</h3>
                         </div>
                         <div className="item">
-                            <img src={meter1} alt="Image" />
+                            <img src={meter1} alt="Percentage" />
                             <h3>MongoDB/Mongoose</h3>
                         </div>
                         <div className="item">
-                            <img src={meter1} alt="Image" />
+                            <img src={meter1} alt="Percentage" />
                             <h3>HTML/CSS</h3>
                         </div>
                         <div className="item">
-                            <img src={meter2} alt="Image" />
+                            <img src={meter2} alt="Percentage"  />
                             <h3>C/C++</h3>
                         </div>
                         <div className="item">
-                            <img src={meter2} alt="Image" />
+                            <img src={meter2}  alt="Percentage" />
                             <h3>Python</h3>
                         </div>
                         <div className="item">
-                            <img src={meter1} alt="Image" />
+                            <img src={meter1} alt="Percentage"  />
                             <h3>EJS Template System</h3>
                         </div>
                         <div className="item">
-                            <img src={meter2} alt="Image" />
+                            <img src={meter2}  alt="Percentage" />
                             <h3>Git/Github</h3>
                         </div>
                         <div className="item">
-                            <img src={meter2} alt="Image" />
+                            <img src={meter2}  alt="Percentage"  />
                             <h3>Latex</h3>
                         </div>
                     </Carousel>

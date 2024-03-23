@@ -5,12 +5,9 @@ import AnimatedLetters from "../AnimatedLetters";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faEnvelope,
-  faFile,
-  faHome,
-  faPhone,
-  faUser,
+ 
 } from "@fortawesome/free-solid-svg-icons";
-import { faGoogle, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 const Contact = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
   useEffect(() => {
