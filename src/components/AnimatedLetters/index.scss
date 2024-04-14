@@ -7,9 +7,25 @@
   animation-fill-mode: forwards;
   min-width: 10px;
 }
+@media screen and (min-width: 424px) {
+  .text-animate-hover {
+    min-width: 10px;
+    
+  }
+  
+  
+}
+@media screen and (max-width: 424px) {
+  .text-animate-hover {
+    min-width:6px;
+    
+  }
+  
+  
+}
 
 .text-animate-hover {
-  min-width: 10px;
+ 
   display: inline-block;
   animation-fill-mode: both;
 

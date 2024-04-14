@@ -1,26 +1,27 @@
 [
   {
-    "title": "Gmeet-Clone",
-    "imageSrc": "Gmeet2.png",
-    "description": "A video Chat app made using WebRTC and socket.io ,with integrated chatting feature using Firebase, and Google sign-in using Google-Oauth2",
-    "skills": [  "NodeJS","LangChain","MongoDB","Pinecone"],
-    "demo": "https://www.example.com",
-    "source": "https://github.com/naiduabhay9731/LangAI"
+    "title": "Gmeet",
+    "imageSrc": "projects/project.png",
+    "description": "A video Chat app made using WebRTC and socket.io ,with integrated chatting feature using Firebase, and Google sign-in using Google-Oauth2.",
+    "skills": ["ReactJs","NodeJS", "Google Oauth2","MongoDB"],
+    "demo": "",
+    "source": "https://github.com/naiduabhay9731/Gmeet_clone"
   },
   {
     "title": "LangAI",
-    "imageSrc": "projects/project.png",
-    "description": "Question-Answer app where user can ask questions about a youtube video,done using Open-AI api and langchain.",
-    "skills": ["ReactJs","NodeJS", "Google Oauth2","MongoDB"],
-    "demo": "https://www.example.com",
-    "source": "https://github.com/naiduabhay9731/Gmeet_clone"
+    "imageSrc": "Gmeet2.png",
+    "description": "Question-Answer app where user can ask questions about a text file ,done using Open-AI api and langchain.",
+    "skills": [  "NodeJS","LangChain","MongoDB","Pinecone"],
+    "demo": "https://langai2.netlify.app/",
+    "source": "https://github.com/naiduabhay9731/LangAI31/"
   },
+  
   {
     "title": "Todo List",
     "imageSrc": "projects/project.png",
     "description": "Personal To-Do list where user can add tasks and remove them ",
     "skills": ["NodeJS","EJS","ExpressJS","MongoDB"],
-    "demo": "https://www.example.com",
+    "demo": "",
     "source": "https://github.com/naiduabhay9731/Journo"
   }
 ]

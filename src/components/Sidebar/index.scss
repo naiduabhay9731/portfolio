@@ -1,16 +1,37 @@
-@media screen and (min-width: 800px) {
+  .toggleButton{
+    
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+   
+        width: 100%;
+        height: 50px;
+        background-color: transparent;
+        color: #ffd700;
+        
+  } 
+  .full-height {
+    height: 100%; /* Full viewport height */
+   
+  }
   .nav-bar {
     background: #181818;
     width: 60px;
-    height: 100%;
-    position: fixed;
+    
+    position:fixed;
     top: 0;
     z-index: 3;
-    min-height: 500px;
+    
 
+    .isfalse{
+      background-color: transparent;
+    }
     .logo {
       display: block;
-
+      
       padding: 8px 0;
 
       img {
@@ -64,7 +85,7 @@
         }
 
         &:after {
-          content: "";
+          
           font-size: 9px;
           letter-spacing: 2px;
           position: absolute;
@@ -77,13 +98,18 @@
           transition: all 0.3s ease-out;
         }
 
-        &:first-child {
-          &:after {
-            content: "HOME";
-          }
+        // &:first-child {
+        //   &:after {
+        //     content: "HOME";
+        //   }
+        // }
+      }
+      
+      a.home-link {
+        &:after {
+          content: "HOME";
         }
       }
-
       a.about-link {
         &:after {
           content: "ABOUT";
@@ -124,7 +150,7 @@
 
       li {
         a {
-          padding: 7px 0;
+          padding:0 0;
           display: block;
           font-size: 15px;
           line-height: 16px;
@@ -142,168 +168,5 @@
       }
     }
   }
-}
-
-@media screen and (max-width: 800px) {
-  .nav-bar {
-    background: #181818;
-  height: auto; /* Set the desired height */
-  width: 100%; /* Set the width to 100% */
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 3;
 
 
-  
-    // position: relative;
-
-    .logo {
-      display:inline-block;
-
-      padding: 8px 0;
-
-      img {
-        //transform: rotate(90deg);
-        display: inline-block;
-        margin: 4px 10px;
-        width: 24px;
-        height: auto;
-        color: white;
-        &.main-logo {
-          width: 50px;
-        }
-
-        &.sub-logo {
-          width: 50px;
-        }
-      }
-    }
-
-    nav {
-    
-      
-     
-      display: inline-block;
-      position: absolute;
-      left: 20%;
-      padding-top: 22px;
-
-    
-     
-
-      a {
-        margin : 0px 10px  ;
-        text-align: center;
-        //transform: rotate(90deg);
-        font-size: 22px;
-        color: #4d4d4e;
-        display: inline-flex;
-        line-height: 51px;
-        height: 51px;
-        position: relative;
-        text-decoration: none;
-
-        i {
-          transition: all 0.3s ease-out;
-        }
-
-        &:hover {
-          color: #ffd700;
-
-          svg {
-            opacity: 0;
-          }
-
-          &:after {
-            opacity: 1;
-          }
-        }
-
-        &:after {
-          content: "";
-          font-size: 9px;
-          letter-spacing: 2px;
-          position: absolute;
-          bottom: 0;
-          display: block;
-          width: 100%;
-          text-align: center;
-          opacity: 0;
-          -webkit-transition: all 0.3s ease-out;
-          transition: all 0.3s ease-out;
-        }
-
-        &:first-child {
-          &:after {
-            content: "HOME";
-          }
-        }
-      }
-
-      a.about-link {
-        &:after {
-          content: "ABOUT";
-        }
-      }
-
-      a.contact-link {
-        &:after {
-          content: "CONTACT";
-        }
-      }
-      a.work-link {
-        &:after {
-          content: "PROJECTS";
-        }
-      }
-      a.skills-link {
-        &:after {
-          content: "SKILLS";
-        }
-      }
-
-      a.active {
-        svg {
-          color: #ffd700;
-        }
-      }
-    }
-    ul {
-      position: absolute;
-      right: 4%;
-      bottom: 20px;
-      width: auto;
-      display: block;
-    
-      list-style: none;
-      
-      
-      margin: 0;
-
-      li {
-        display: inline-block;
-       
-        margin : -7px 10px  ;
-        
-        a {
-          
-          padding-top: 22px;
-      
-          
-          color: #4d4d4e;
-
-          &:hover svg {
-            color: #ffd700;
-          }
-        }
-        a.resume {
-          
-          &:hover svg {
-            content: "RESUME";
-          }
-        }
-      }
-    }
-  }
-}

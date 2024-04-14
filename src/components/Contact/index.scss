@@ -1,3 +1,6 @@
+.contactinfotag{
+  padding-left: 20px;
+}
 a {
     font-size: 22px;
     color: #4d4d4e;
@@ -6,6 +9,7 @@ a {
     height: 51px;
     position: relative;
     text-decoration: none;
+    
    
 
     i {
@@ -38,11 +42,7 @@ a {
       transition: all 0.3s ease-out;
     }
 
-    &:first-child {
-      &:after {
-        content: 'HOME';
-      }
-    }
+    
   }
 
   a.about-link {
@@ -78,3 +78,65 @@ a {
   }
 
 
+  .container3 {
+    width: 100%;
+    will-change: contents;
+    height: 90%;
+    min-height: 566px;
+    position: absolute;
+    opacity: 0;
+    top: 25%;
+    margin: 0 auto;
+    z-index: 1;
+    transform-style: preserve-3d;
+    animation: fadeIn 1s forwards;
+    animation-delay: 1s;
+    h1 {
+      color: #fff;
+      @media screen and (min-width: 424px) {
+        font-size: 56px;
+        line-height: 53px;
+        margin: 0;
+      }
+  
+      font-family: "Coolvetica";
+      font-weight: 400;
+    }
+    p {
+      color: #fff;
+      font-weight:100px;
+      @media screen and (min-width: 424px) {
+        font-size: 15px;
+        line-height: 20px;
+        margin-top:20px;
+      }
+      margin: 20px 20px;
+  
+      
+    }
+  }
+  .text-zone3 {
+    position: absolute;
+    left: 5%;
+    top: 35%;
+    transform: translateY(-50%);
+    width:100%;
+    vertical-align: middle;
+    display: table-cell;
+    max-height: 90%;
+    color: #ffd700;
+  }
+  @media screen and (max-width: 424px) {
+    
+    h1 {
+      font-size: 25px;
+      line-height: 53px;
+      margin: 0;
+      img {
+        margin-left: 15px;
+        width: 30px;
+      }
+    }
+    
+  }
+  

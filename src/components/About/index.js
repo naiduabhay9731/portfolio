@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState } from "react";
 import {
   faAngular,
   faCss3,
@@ -6,45 +6,51 @@ import {
   faHtml5,
   faJsSquare,
   faReact,
-} from '@fortawesome/free-brands-svg-icons'
-import Loader from 'react-loaders'
-import AnimatedLetters from '../AnimatedLetters'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import './index.scss'
+} from "@fortawesome/free-brands-svg-icons";
+import Loader from "react-loaders";
+import AnimatedLetters from "../AnimatedLetters";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "./index.scss";
 
 const About = () => {
-  const [letterClass, setLetterClass] = useState('text-animate')
+  const [letterClass, setLetterClass] = useState("text-animate");
 
   useEffect(() => {
     setTimeout(() => {
-        return  setLetterClass('text-animate-hover')
-    }, 3000)
-  }, [])
+      return setLetterClass("text-animate-hover");
+    }, 3000);
+  }, []);
 
   return (
     <>
-      <div className="container about-page">
-        <div className="text-zone">
+      <div className="container2 about-page">
+        <div className="text-zone2 ">
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
+              strArray={["A", "b", "o", "u", "t", " ", "m", "e"]}
               idx={15}
             />
           </h1>
           <p>
-            I'm a 3rd year student from Indian Institute of Technology Guwahati studying Electronics and Electrical Engineering and a  very ambitious Full-Stack developer looking for opportunities to work with latest technologies to build challenging projects and get valuable experience.
+            I'm a 3rd year student from Indian Institute of Technology Guwahati
+            studying Electronics and Electrical Engineering and a very ambitious
+            Full-Stack developer looking for opportunities to work with latest
+            technologies to build challenging projects and get valuable
+            experience.
           </p>
           <p align="LEFT">
-          I am enthusiastic about leveraging technology to solve real-world challenges and am eager to
-bring my innovative ideas and expertise to projects.
+            I am enthusiastic about leveraging technology to solve real-world
+            challenges and am eager to bring my innovative ideas and expertise
+            to projects.
           </p>
           <p>
-           I am a detail oriented person,Very eager to learn new things and very time efficient.
+            I am a detail oriented person,Very eager to learn new things and
+            very time efficient.
           </p>
         </div>
 
-        <div className="stage-cube-cont">
+        <div className="stage-cube-cont zplace">
           <div className="cubespinner">
             <div className="face1">
               <FontAwesomeIcon icon={faAngular} color="#DD0031" />
@@ -69,7 +75,7 @@ bring my innovative ideas and expertise to projects.
       </div>
       <Loader type="pacman" />
     </>
-  )
-}
+  );
+};
 
-export default About
+export default About;

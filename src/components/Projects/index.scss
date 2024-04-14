@@ -1,36 +1,77 @@
-h1 {
-    font-size: 53px;
-    font-family: 'Coolvetica';
-    color: #ffd700;
-    font-weight: 400;
-    margin-top: 0;
-    position: relative;
-    margin-bottom: 40px;
-    left: -10px;
 
-    &:before {
-      content: '<h1>';
-      font-family: 'La Belle Aurore', cursive;
-      color: #ffd700;
-      font-size: 18px;
-      position: absolute;
-      margin-top: -10px;
-      left: -10px;
-      opacity: 0.6;
-      line-height: 18px;
-    }
 
-    &:after {
-      content: '<h1/>';
-      font-family: 'La Belle Aurore', cursive;
-      color: #ffd700;
-      font-size: 18px;
-      line-height: 18px;
-      position: absolute;
-      left: -30px;
-      bottom: -20px;
-      margin-left: 20px;
-      opacity: 0.6;
-    }
-    
+.skill2 {
+  padding: 0 0 50px 0;
+  position: relative;
+}
+.skill2-bx {
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -60px;
+}
+.skill2 h2 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #ffd700;
+}
+.skill2 h3 {
+  font-weight: 700;
+  color: #ffd700;
+}
+
+.skill-slider {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+.skill-slider .item img {
+  width: 50%;
+  margin: 0 auto 15px auto;
+}
+.background-image-left {
+  top: 28%;
+  position: absolute;
+  bottom: 0;
+  width: 40%;
+  z-index: -4;
+}
+@media screen and (min-width: 424px) {
+  .container2 {
+    width: 100%;
+    will-change: contents;
+    height: 90%;
+    min-height: 566px;
+    position: absolute;
+    opacity: 0;
+    top: 25%;
+    margin: 0 auto;
+    z-index: 1;
+    transform-style: preserve-3d;
+    animation: fadeIn 1s forwards;
+    animation-delay: 1s;
+    left: 7%;
   }
+}
+@media screen and (max-width: 424px) {
+  .container2 {
+    width: 100%;
+    will-change: contents;
+    height: 90%;
+    min-height: 566px;
+    position: absolute;
+    opacity: 0;
+    top: 25%;
+    margin: 0 auto;
+    z-index: 1;
+    transform-style: preserve-3d;
+    animation: fadeIn 1s forwards;
+    animation-delay: 1s;
+    left: 6%;
+  }
+  .skill2 h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffd700;
+  }
+}

@@ -18,8 +18,8 @@ const Contact = () => {
 
   return (
     <>
-      <div className="container contact-page">
-        <div className="text-zone">
+      <div className="container3 contact-page">
+        <div className="text-zone3">
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
@@ -38,6 +38,7 @@ const Contact = () => {
               <p>Linkedin:</p>
               <a
                 target="_blank"
+                className="contactinfotag"
                 rel="noreferrer"
                 href="https://www.linkedin.com/in/abhay-naidu-640053227/"
               >

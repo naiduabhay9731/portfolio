@@ -21,7 +21,7 @@ const Home=()=>{
         <>
 
        
-    <div className='container home-page'>
+    <div className='container2 home-page'>
         
         <div className='text-zone'> 
             <h1><AnimatedLetters letterClass={letterClass}
@@ -29,7 +29,7 @@ const Home=()=>{
             idx={15} /> <br/> <AnimatedLetters letterClass={letterClass}
             strArray={['I',' ','a','m']}
             idx={15} />
-            <img src={Logot} alt='Text2'></img>
+            <img className='logoImage' src={Logot} alt='Text2'></img>
             <AnimatedLetters letterClass={letterClass}
             strArray={nameArr}
             idx={15}/>

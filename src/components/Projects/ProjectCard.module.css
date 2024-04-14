@@ -1,10 +1,9 @@
 @import "../../vars.css";
 
-
-
 .container {
   display: flex;
   flex-direction: column;
+
   border-radius: 10px;
   background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
   box-shadow: 0 16px 14px 0 #04152d;
@@ -14,9 +13,8 @@
 
 .image {
   margin-bottom: 6px;
-  height:350px; /* Set a fixed height for the images */
-; /* Allow width to adjust proportionally */
-  object-fit: cover; 
+  height: 310px; /* Set a fixed height for the images */ /* Allow width to adjust proportionally */
+  object-fit: cover;
 }
 
 .title {
@@ -24,22 +22,25 @@
   font-weight: 700;
 }
 
-.description {
-  margin-top: 6px;
-  font-size: 13px;
-  font-weight: 400;
+.description2 {
+  color: white;
+  font-size: 12px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 15px 15px;
 }
 
 .skills {
-  width: 100%;
+  width: 90%;
   margin-top: 1px;
+
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-start; 
-  align-items: flex-start; 
+  justify-content: center;
+  align-items: center;
 
-  gap: 4px;
+  gap: 2px;
   list-style: none;
 }
 
@@ -47,7 +48,7 @@
   font-size: 15px;
   font-weight: 100;
   border-radius: 100px;
-  background: var(--color-dark);
+  background-color: #ff9900;
   padding: 2px 22px;
 }
 
@@ -60,16 +61,23 @@
 
 .link {
   text-decoration: none;
-  color: var(--color-text);
+  background-color: #ff9900;
   font-size: 16px;
   font-weight: 600;
   border-radius: 100px;
-  background: var(--color-primary);
+
   padding: 1px 22px;
 }
-@media screen and (max-width: 800px) {
+
+@media screen and (max-width: 426px) {
+  .image {
+    margin-bottom: 1px;
+    height: 160px; /* Set a fixed height for the images */ /* Allow width to adjust proportionally */
+    object-fit: cover;
+  }
+
   .title {
-    font-size: 15px;
+    font-size: 10px;
     font-weight: 700;
   }
   .container {
@@ -81,26 +89,47 @@
     padding: 18px 20px;
     max-width: 350px;
   }
-  .description {
-    margin-top: 6px;
-    font-size: 12px;
-    font-weight: 400;
+  .description2 {
+    color: white;
+    font-size: 8px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 10px 7px;
   }
-  
-.link {
-  text-decoration: none;
-  color: var(--color-text);
-  font-size: 12px;
-  font-weight: 600;
-  border-radius: 100px;
-  background: var(--color-primary);
-  padding: 5px 10px;
-}
-.skill {
-  font-size: 12px;
-  font-weight: 100;
-  border-radius: 100px;
-  background: var(--color-dark);
-  padding: 2px 14px;
-}
+
+  .link {
+    width: auto; /* Set the width and height to the same value */
+    height: auto;
+    border-radius: 50%; /* Set border-radius to 50% to create a circle */
+    background-color: #ff9900;
+    font-size: 7px;
+    font-weight: 750;
+    padding: 3px; /* Remove padding */
+    margin-top: 5px;
+    text-align: center; /* Align text horizontally and vertically */
+    line-height: 20px; /* Set line-height equal to height to vertically center text */
+    text-decoration: none;
+    display: inline-block; /* Ensure it's displayed as a block element */
+  }
+  .skill {
+    font-size: 8px;
+    font-weight: 750;
+
+    border-radius: 100px;
+    background-color: #ff9900;
+    padding: 2px 6px;
+  }
+  .skills {
+    width: 80%;
+    margin-top: 0px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: center ;
+    align-items: center;  */
+
+    gap: 2px;
+    list-style: none;
+  }
 }
