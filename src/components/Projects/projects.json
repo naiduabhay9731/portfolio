@@ -1,5 +1,12 @@
 [
-  
+  {
+    "title": "Gmeet",
+    "imageSrc": "projects/project.png",
+    "description": "A video Chat app made using WebRTC and socket.io ,with integrated chatting feature using Firebase, and Google sign-in using Google-Oauth2.",
+    "skills": ["ReactJs","NodeJS", "Google Oauth2","MongoDB"],
+    "demo": "",
+    "source": "https://github.com/naiduabhay9731/Gmeet_clone"
+  },
   {
     "title": "LangAI",
     "imageSrc": "Gmeet2.png",
@@ -16,13 +23,6 @@
     "skills": ["NodeJS","ReactJs","bcrypt","MongoDB"],
     "demo": "https://pixshare21.netlify.app/",
     "source": "https://github.com/naiduabhay9731/PixShare"
-  },
-  {
-    "title": "Gmeet",
-    "imageSrc": "projects/project.png",
-    "description": "A video Chat app made using WebRTC and socket.io ,with integrated chatting feature using Firebase, and Google sign-in using Google-Oauth2.",
-    "skills": ["ReactJs","NodeJS", "Google Oauth2","MongoDB"],
-    "demo": "",
-    "source": "https://github.com/naiduabhay9731/Gmeet_clone"
   }
+  
 ]
