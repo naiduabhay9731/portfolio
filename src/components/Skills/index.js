@@ -52,15 +52,33 @@ const Skills = () => {
                 </h2>
 
                 <p>
-                  Aspiring MERN stack developer with experience of 2 years in
+                  Aspiring MERN stack developer with experience of 3 years in
                   ReactJS and NodeJS/ExpressJS, very efficient in C/C++,if you
                   want to know more about me You can find my cv on the Sidebar.
                 </p>
                 <Carousel
                   responsive={responsive}
+                  autoPlay
+                  autoPlaySpeed={2000}
                   infinite={true}
                   className="owl-carousel owl-theme skill-slider"
                 >
+                 <div className="item">
+                    <img src={meter1} alt="Percentage" />
+                    <h3>HTML/CSS</h3>
+                  </div>
+                  <div className="item">
+                    <img src={meter2} alt="Percentage" />
+                    <h3>C/C++</h3>
+                  </div>
+                  <div className="item">
+                    <img src={meter2} alt="Percentage" />
+                    <h3>JavaScript</h3>
+                  </div>
+                  <div className="item">
+                    <img src={meter2} alt="Percentage" />
+                    <h3>Python</h3>
+                  </div>
                   <div className="item">
                     <img src={meter2} alt="Percentage" />
                     <h3>ReactJS</h3>
@@ -78,25 +96,19 @@ const Skills = () => {
                     <h3>MongoDB/Mongoose</h3>
                   </div>
                   <div className="item">
-                    <img src={meter1} alt="Percentage" />
-                    <h3>HTML/CSS</h3>
-                  </div>
-                  <div className="item">
                     <img src={meter2} alt="Percentage" />
-                    <h3>C/C++</h3>
-                  </div>
-                  <div className="item">
-                    <img src={meter2} alt="Percentage" />
-                    <h3>Python</h3>
-                  </div>
-                  <div className="item">
-                    <img src={meter1} alt="Percentage" />
-                    <h3>EJS Template System</h3>
+                    <h3>MySQL</h3>
                   </div>
                   <div className="item">
                     <img src={meter2} alt="Percentage" />
                     <h3>Git/Github</h3>
                   </div>
+                  <div className="item">
+                    <img src={meter2} alt="Percentage" />
+                    <h3>Docker</h3>
+                  </div>
+                  
+
                   <div className="item">
                     <img src={meter2} alt="Percentage" />
                     <h3>Latex</h3>

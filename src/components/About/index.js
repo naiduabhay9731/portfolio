@@ -33,7 +33,7 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm a 3rd year student from Indian Institute of Technology Guwahati
+            I'm a 4th  year student from Indian Institute of Technology Guwahati
             studying Electronics and Electrical Engineering and a very ambitious
             Full-Stack developer looking for opportunities to work with latest
             technologies to build challenging projects and get valuable

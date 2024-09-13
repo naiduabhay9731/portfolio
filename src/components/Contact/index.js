@@ -28,7 +28,7 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am interested in Internship opportunities . However, if you have
+            I am interested in Full time  opportunities . However, if you have
             any other requests or questions, don't hesitate to contact me using
             below methods .
           </p>
